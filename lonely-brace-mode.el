@@ -85,4 +85,6 @@ should do the rest of the work for us."
    (t
     (remove-hook 'post-self-insert-hook 'lonely-brace-post-self-insert-function t))))
 
+(provide 'lonely-brace-mode)
+
 ;;; lonely-brace-mode.el ends here
